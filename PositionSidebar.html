@@ -1,17 +1,13 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>day4 task2</title>
+    <title>Day 4 Task 2</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="positionsidebar.css">
 </head>
-<link rel="stylesheet" href="positionsidebar.css">
-</head>
-
 
 <body>
     <!-- Sidebar -->
@@ -20,30 +16,31 @@
             <img src="OrdLogo1.png" alt="Order Status Logo">
         </div>
         <div class="black-sidebar">
-            <div class="sidebar-icon">
-                <img src="1st.png" alt="z">
-            </div>
-            <div class="sidebar-icon">
-                <img src="table.png" alt="z">
-            </div>
-            <div class="sidebar-icon">
-                <img src="graph.png" alt="z">
-            </div>
-            <div class="sidebar-icon active">
-                <img src="active.png" alt="z">
-            </div>
-            <div class="sidebar-icon">
-                <img src="read.png" alt="z">
-            </div>
-            <div class="sidebar-icon">
-                <img src="exit.png" alt="z">
-            </div>
+            <a href="dashboard.html" class="sidebar-icon">
+                <img src="1st.png" alt="Dashboard">
+            </a>
+            <a href="orders.html" class="sidebar-icon">
+                <img src="table.png" alt="Orders">
+            </a>
+            <a href="reports.html" class="sidebar-icon">
+                <img src="graph.png" alt="Reports">
+            </a>
+            <a href="active.html" class="sidebar-icon active">
+                <img src="active.png" alt="Active">
+            </a>
+            <a href="messages.html" class="sidebar-icon">
+                <img src="read.png" alt="Messages">
+            </a>
+            <a href="logout.html" class="sidebar-icon">
+                <img src="exit.png" alt="Logout">
+            </a>
         </div>
         <div class="sidebar-profile">
             <img src="profile2.png" alt="Profile">
             <img src="Notificationicon.png" alt="Notification">
         </div>
     </div>
+
     <!-- Main Content -->
     <div class="main-content">
         <header class="header">
@@ -70,7 +67,6 @@
                     <h2>Preparing</h2>
                     <div class="box-item">
                         <div class="items">
-                            <div class="item">3885</div>
                             <div class="item">3885</div>
                             <div class="item">3885</div>
                             <div class="item">3885</div>
@@ -118,6 +114,6 @@
             </div>
         </div>
     </div>
-    
+
 </body>
 </html>
